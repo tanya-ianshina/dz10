@@ -1,0 +1,7 @@
+#ДЗ10
+s = input('введите алфавит').split()
+seq = input('введите последовательность')
+from collections import Counter
+counts=Counter(seq)
+for i in seq:
+  print(i,counts[i])
